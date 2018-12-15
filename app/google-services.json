@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "648223947247",
+    "firebase_url": "https://fir-a1267.firebaseio.com",
+    "project_id": "fir-a1267",
+    "storage_bucket": "fir-a1267.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648223947247:android:ad94fd44f675550b",
+        "android_client_info": {
+          "package_name": "com.bayanadam.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648223947247-bda4op32dhg7snu34hjf1eeasfsj0see.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bayanadam.firebase",
+            "certificate_hash": "d3e51057c9f318d068ef8b3f5897a60192ca360c"
+          }
+        },
+        {
+          "client_id": "648223947247-iliirfcde1v6lnel2m8h6kucq0f9n82b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXDB66As-BgiccVjUl1AcDqESendfLYEc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "648223947247-iliirfcde1v6lnel2m8h6kucq0f9n82b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

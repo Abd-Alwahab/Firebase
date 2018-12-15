@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".changeEmail" android:background="#777">
+
+    <TextView
+            android:text="Change your Email Adress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView3" android:textSize="24sp"
+            android:textAlignment="center" android:layout_marginTop="30dp" android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp" android:layout_marginBottom="30dp"/>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:ems="10"
+                android:id="@+id/email_edit_text_change" android:background="#fff" android:layout_margin="20dp"
+                android:padding="15dp" android:hint="you email address"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:id="@+id/password_edit_text_change" android:background="#fff" android:layout_margin="20dp"
+                android:padding="15dp" android:hint="you password"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:ems="10"
+                android:id="@+id/newemail_edit_text_change" android:background="#fff" android:layout_margin="20dp"
+                android:padding="15dp" android:hint="your new email adreess"/>
+        <Button
+                android:text="Update"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content" android:id="@+id/update_btn"
+                android:background="@android:color/holo_blue_light" android:layout_gravity="center"/>
+    </LinearLayout>
+</RelativeLayout>
